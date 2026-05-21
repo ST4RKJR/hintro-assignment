@@ -1,0 +1,33 @@
+{
+  "info": {
+    "name": "Hintro Mock API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:3001" },
+    { "key": "userId", "value": "u1" },
+    { "key": "limit", "value": "10" }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "item": [
+        { "name": "Health Check", "request": { "method": "GET", "url": "{{baseUrl}}/health" } }
+      ]
+    },
+    {
+      "name": "Auth",
+      "item": [
+        { "name": "Get Profile", "request": { "method": "GET", "url": "{{baseUrl}}/api/auth/profile", "header": [{ "key": "x-user-id", "value": "{{userId}}" }] } },
+        { "name": "Get Dashboard", "request": { "method": "GET", "url": "{{baseUrl}}/api/auth/dashboard", "header": [{ "key": "x-user-id", "value": "{{userId}}" }] } }
+      ]
+    },
+    {
+      "name": "Call Sessions",
+      "item": [
+        { "name": "Get Stats", "request": { "method": "GET", "url": "{{baseUrl}}/api/call-sessions/stats", "header": [{ "key": "x-user-id", "value": "{{userId}}" }] } },
+        { "name": "Get Call History", "request": { "method": "GET", "url": "{{baseUrl}}/api/call-sessions?limit={{limit}}", "header": [{ "key": "x-user-id", "value": "{{userId}}" }] } }
+      ]
+    }
+  ]
+}

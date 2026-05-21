@@ -1,0 +1,41 @@
+--- Page 1 ---
+     Registered  Oﬃce::C-264,  Siddharth  Nagar,  Jaipur,  302017 hr@hintro.ai ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Hintro  Frontend  Assignment
+ 
+Problem  Statement  Build  a  mock-dashboard  for  Hintro  based  on  the  figma  design  and  using  mock  API’s  
+Functional  Requirements  •  Follow  the  figma  design  end  to  end  •  Use  the  mock  API’s  to  for  the  data  •  The  API  doc  suggest  you  to  design  for  2  users  •  One  user  would  show  empty  data  for  empty  states  &  other  would  have  random  data  
+flowing
+ 
+on
+ 
+each
+ 
+API
+ call  (For  details  check  the  API  doc)  •  Use  global  and  consistent  CSS  themes,  don’t  use  hardcoded  colors  •  Ensure  responsiveness  &  clean  transitions  throughout  the  design  •  For  the  feedback  functionality  in  sidebar,  the  design  shows  the  detailed  flow  and  it’s  
+expected
+ 
+to
+ 
+store
+ those  feedback  in  localstorage  •  The  time  and  stats  data  from  the  API  would  be  in  seconds  or  whatever  it  is  
+configured
+ 
+to,
+ 
+but
+ 
+the
+ dashboard  should  exactly  follow  the  conventions  needed  in  the  figma  design  •  The  UI  must  leverage  the  API’s  for  data  and  not  hardcode  them  Expected  Deliverables  •  Clean  working  UI,  should  match  figma  layouts  •  Consistent  theme,  responsiveness  &  clean  transitions  •  2  users  and  data  being  shown  accordingly  •  Show  empty  states  for  user  1  and  filled  states  for  user  2  •  Handle  time  measurements  according  to  the  data  and  design  
+Nice  to  have  •  A  video  link  showcasing  what  you  have  made  and  your  approach  •  A  deployment  URL  
+Submission  Instructions  •  Push  complete  working  code  to  a  public  GitHub  repository  •  Include  a  detailed  README  with  setup  and  run  instructions  •  Mention  tech  stack,  conventions  and  assumptions  clearly  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  Amsom  Technologies  Private  Limited       www.hintro.ai   CIN:U74909RJ2025PTC109139              
+ 
+--- Page 2 ---
+     Registered  Oﬃce::C-264,  Siddharth  Nagar,  Jaipur,  302017 hr@hintro.ai ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Figma  Design  Link:  View  here  
+API  Documentation  Readme  and  postman  spec  attached  with  the  email  Base  URL:  https://mock-backend-hintro.vercel.app/  
+ 
+ 
+   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  Amsom  Technologies  Private  Limited       www.hintro.ai   CIN:U74909RJ2025PTC109139              
+ 
