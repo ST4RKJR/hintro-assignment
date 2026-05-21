@@ -45,7 +45,7 @@ function App() {
     // Defer the loading state setter to a microtask to avoid synchronous setState inside useEffect
     await Promise.resolve();
     setIsLoading(true);
-    const BASE_URL = 'https://mock-backend-hintro.vercel.app';
+    const BASE_URL = import.meta.env.VITE_API_URL;
     const headers = { 'x-user-id': userId };
 
     try {
