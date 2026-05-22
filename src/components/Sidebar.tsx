@@ -437,7 +437,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </button>
 
         <button
-          className="sidebar-bottom-item mobile-only"
+          className="sidebar-bottom-item"
           onClick={openFeedbackHistory}
           id="btn-feedback-history"
         >
